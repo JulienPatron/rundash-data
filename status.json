@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-09-13T01:29:13",
+  "today": "2026-09-13",
+  "program_start_date": "2026-08-17",
+  "program_started": true,
+  "session_today": {
+    "date": "2026-09-13",
+    "type": "longue",
+    "label": "Longue",
+    "distance_m": 8454.738684671167,
+    "hr_zone": 2,
+    "status": "planned",
+    "summary": "Longue 8,5 km"
+  },
+  "week": {
+    "monday": "2026-09-07",
+    "label": "7 sept.",
+    "target_km": 27.0,
+    "actual_km": 8.7019404296875,
+    "sessions": [
+      {
+        "date": "2026-09-07",
+        "type": "z2",
+        "label": "Z2",
+        "distance_m": 5500.0,
+        "hr_zone": 2,
+        "status": "missed",
+        "summary": "Z2 5,5 km"
+      },
+      {
+        "date": "2026-09-09",
+        "type": "z2",
+        "label": "Z2",
+        "distance_m": 5500.0,
+        "hr_zone": 2,
+        "status": "missed",
+        "summary": "Z2 5,5 km"
+      },
+      {
+        "date": "2026-09-11",
+        "type": "seuil",
+        "label": "Seuil",
+        "distance_m": 7545.261315328832,
+        "hr_zone": 4,
+        "status": "missed",
+        "summary": "Seuil 7,5 km"
+      },
+      {
+        "date": "2026-09-13",
+        "type": "longue",
+        "label": "Longue",
+        "distance_m": 8454.738684671167,
+        "hr_zone": 2,
+        "status": "planned",
+        "summary": "Longue 8,5 km"
+      }
+    ]
+  },
+  "status": {
+    "load": {
+      "date": "2026-09-13",
+      "tsb": 9.602252495587035,
+      "tsb_label": "Frais",
+      "tsb_severity": "good",
+      "ctl": 16.42819467268129,
+      "atl": 6.825942177094255,
+      "ctl_trend": "en baisse",
+      "ctl_trend_lookback_days": 14
+    },
+    "ef": {
+      "trend": "en hausse",
+      "judged_points": 6,
+      "last_date": "2026-09-08"
+    }
+  },
+  "freshness": {
+    "last_success_at": "2026-09-12 23:29:13",
+    "sources_failing": []
+  },
+  "notifications": {
+    "morning": {
+      "title": "Aujourd'hui : Longue 8,5 km",
+      "body": "Charge : Frais · EF en hausse"
+    },
+    "weekly": {
+      "title": "Semaine du 7 sept. : 27,0 km",
+      "body": "lun Z2 5,5 km · mer Z2 5,5 km · ven Seuil 7,5 km · dim Longue 8,5 km"
+    }
+  }
+}
