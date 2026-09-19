@@ -1,0 +1,81 @@
+{
+  "generated_at": "2026-09-19T19:43:06",
+  "today": "2026-09-19",
+  "program_start_date": "2026-08-17",
+  "program_started": true,
+  "session_today": {
+    "date": "2026-09-19",
+    "type": "longue",
+    "label": "Longue",
+    "distance_m": 8270.893371757926,
+    "hr_zone": 2,
+    "status": "completed",
+    "summary": "Longue 8,3 km"
+  },
+  "week": {
+    "monday": "2026-09-14",
+    "label": "14 sept.",
+    "target_km": 21.0,
+    "actual_km": 18.91397998046875,
+    "sessions": [
+      {
+        "date": "2026-09-15",
+        "type": "z2",
+        "label": "Z2",
+        "distance_m": 5500.0,
+        "hr_zone": 2,
+        "status": "missed",
+        "summary": "Z2 5,5 km"
+      },
+      {
+        "date": "2026-09-17",
+        "type": "fractionne",
+        "label": "Fractionné",
+        "distance_m": 7229.106628242074,
+        "hr_zone": 5,
+        "status": "missed",
+        "summary": "Fractionné 7,2 km"
+      },
+      {
+        "date": "2026-09-19",
+        "type": "longue",
+        "label": "Longue",
+        "distance_m": 8270.893371757926,
+        "hr_zone": 2,
+        "status": "completed",
+        "summary": "Longue 8,3 km"
+      }
+    ]
+  },
+  "status": {
+    "load": {
+      "date": "2026-09-19",
+      "tsb": -12.357827642304322,
+      "tsb_label": "En charge",
+      "tsb_severity": "warn",
+      "ctl": 23.17836959236019,
+      "atl": 35.53619723466451,
+      "ctl_trend": "en hausse",
+      "ctl_trend_lookback_days": 14
+    },
+    "ef": {
+      "trend": "en hausse",
+      "judged_points": 6,
+      "last_date": "2026-09-19"
+    }
+  },
+  "freshness": {
+    "last_success_at": "2026-09-19 17:43:04",
+    "sources_failing": []
+  },
+  "notifications": {
+    "morning": {
+      "title": "Aujourd'hui : Longue 8,3 km",
+      "body": "Charge : En charge · EF en hausse"
+    },
+    "weekly": {
+      "title": "Semaine du 14 sept. : 21,0 km",
+      "body": "mar Z2 5,5 km · jeu Fractionné 7,2 km · sam Longue 8,3 km"
+    }
+  }
+}
