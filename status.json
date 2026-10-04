@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-10-04T02:10:25",
+  "today": "2026-10-04",
+  "program_start_date": "2026-08-17",
+  "program_started": true,
+  "session_today": null,
+  "week": {
+    "monday": "2026-09-28",
+    "label": "28 sept.",
+    "target_km": 21.0,
+    "actual_km": 23.21822998046875,
+    "sessions": [
+      {
+        "date": "2026-09-29",
+        "type": "z2",
+        "label": "Z2",
+        "distance_m": 5500.0,
+        "hr_zone": 2,
+        "status": "completed",
+        "summary": "Z2 5,5 km"
+      },
+      {
+        "date": "2026-10-01",
+        "type": "fractionne",
+        "label": "Fractionné",
+        "distance_m": 6824.137931034483,
+        "hr_zone": 5,
+        "status": "missed",
+        "summary": "Fractionné 6,8 km"
+      },
+      {
+        "date": "2026-10-03",
+        "type": "longue",
+        "label": "Longue",
+        "distance_m": 8675.862068965518,
+        "hr_zone": 2,
+        "status": "completed",
+        "summary": "Longue 8,7 km"
+      }
+    ]
+  },
+  "status": {
+    "load": {
+      "date": "2026-10-04",
+      "tsb": -7.295494786998702,
+      "tsb_label": "Équilibré",
+      "tsb_severity": "neutral",
+      "ctl": 22.14627698067548,
+      "atl": 29.441771767674183,
+      "ctl_trend": "en baisse",
+      "ctl_trend_lookback_days": 14
+    },
+    "ef": {
+      "trend": "stable",
+      "judged_points": 6,
+      "last_date": "2026-10-03"
+    }
+  },
+  "freshness": {
+    "last_success_at": "2026-10-04 00:10:24",
+    "sources_failing": []
+  },
+  "notifications": {
+    "morning": {
+      "title": "Aujourd'hui : repos",
+      "body": "Charge : Équilibré · EF stable"
+    },
+    "weekly": {
+      "title": "Semaine du 28 sept. : 21,0 km",
+      "body": "mar Z2 5,5 km · jeu Fractionné 6,8 km · sam Longue 8,7 km"
+    }
+  }
+}
