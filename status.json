@@ -1,0 +1,81 @@
+{
+  "generated_at": "2026-10-17T02:00:02",
+  "today": "2026-10-17",
+  "program_start_date": "2026-08-17",
+  "program_started": true,
+  "session_today": {
+    "date": "2026-10-17",
+    "type": "longue",
+    "label": "Longue",
+    "distance_m": 8680.80229226361,
+    "hr_zone": 2,
+    "status": "planned",
+    "summary": "Longue 8,7 km"
+  },
+  "week": {
+    "monday": "2026-10-12",
+    "label": "12 oct.",
+    "target_km": 21.0,
+    "actual_km": 8.72541015625,
+    "sessions": [
+      {
+        "date": "2026-10-13",
+        "type": "z2",
+        "label": "Z2",
+        "distance_m": 5500.0,
+        "hr_zone": 2,
+        "status": "missed",
+        "summary": "Z2 5,5 km"
+      },
+      {
+        "date": "2026-10-15",
+        "type": "fractionne",
+        "label": "Fractionné",
+        "distance_m": 6819.19770773639,
+        "hr_zone": 5,
+        "status": "missed",
+        "summary": "Fractionné 6,8 km"
+      },
+      {
+        "date": "2026-10-17",
+        "type": "longue",
+        "label": "Longue",
+        "distance_m": 8680.80229226361,
+        "hr_zone": 2,
+        "status": "planned",
+        "summary": "Longue 8,7 km"
+      }
+    ]
+  },
+  "status": {
+    "load": {
+      "date": "2026-10-17",
+      "tsb": 0.10734131070935149,
+      "tsb_label": "Équilibré",
+      "tsb_severity": "neutral",
+      "ctl": 17.375104649529632,
+      "atl": 17.26776333882028,
+      "ctl_trend": "en baisse",
+      "ctl_trend_lookback_days": 14
+    },
+    "ef": {
+      "trend": "stable",
+      "judged_points": 6,
+      "last_date": "2026-10-16"
+    }
+  },
+  "freshness": {
+    "last_success_at": "2026-10-17 00:00:01",
+    "sources_failing": []
+  },
+  "notifications": {
+    "morning": {
+      "title": "Aujourd'hui : Longue 8,7 km",
+      "body": "Charge : Équilibré · EF stable"
+    },
+    "weekly": {
+      "title": "Semaine du 12 oct. : 21,0 km",
+      "body": "mar Z2 5,5 km · jeu Fractionné 6,8 km · sam Longue 8,7 km"
+    }
+  }
+}
