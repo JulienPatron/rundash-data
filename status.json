@@ -1,0 +1,82 @@
+{
+  "generated_at": "2026-10-24T18:57:05",
+  "today": "2026-10-24",
+  "program_start_date": "2026-08-17",
+  "program_started": true,
+  "session_today": null,
+  "week": {
+    "monday": "2026-10-19",
+    "label": "19 oct.",
+    "target_km": 27.0,
+    "actual_km": 7.0265498046875,
+    "sessions": [
+      {
+        "date": "2026-10-19",
+        "type": "z2",
+        "label": "Z2",
+        "distance_m": 5500.0,
+        "hr_zone": 2,
+        "status": "missed",
+        "summary": "Z2 5,5 km"
+      },
+      {
+        "date": "2026-10-21",
+        "type": "z2",
+        "label": "Z2",
+        "distance_m": 5500.0,
+        "hr_zone": 2,
+        "status": "missed",
+        "summary": "Z2 5,5 km"
+      },
+      {
+        "date": "2026-10-23",
+        "type": "seuil",
+        "label": "Seuil",
+        "distance_m": 7459.4803932487575,
+        "hr_zone": 4,
+        "status": "completed",
+        "summary": "Seuil 7,5 km"
+      },
+      {
+        "date": "2026-10-25",
+        "type": "longue",
+        "label": "Longue",
+        "distance_m": 8540.519606751242,
+        "hr_zone": 2,
+        "status": "planned",
+        "summary": "Longue 8,5 km"
+      }
+    ]
+  },
+  "status": {
+    "load": {
+      "date": "2026-10-24",
+      "tsb": 0.9527402259261102,
+      "tsb_label": "Équilibré",
+      "tsb_severity": "neutral",
+      "ctl": 17.352747585610835,
+      "atl": 16.400007359684725,
+      "ctl_trend": "en baisse",
+      "ctl_trend_lookback_days": 14
+    },
+    "ef": {
+      "trend": "en baisse",
+      "judged_points": 6,
+      "last_date": "2026-10-24"
+    }
+  },
+  "freshness": {
+    "last_success_at": "2026-10-24 16:57:04",
+    "sources_failing": []
+  },
+  "notifications": {
+    "morning": {
+      "title": "Aujourd'hui : repos",
+      "body": "Charge : Équilibré · EF en baisse"
+    },
+    "weekly": {
+      "title": "Semaine du 19 oct. : 27,0 km",
+      "body": "lun Z2 5,5 km · mer Z2 5,5 km · ven Seuil 7,5 km · dim Longue 8,5 km"
+    }
+  }
+}
