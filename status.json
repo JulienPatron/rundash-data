@@ -1,0 +1,81 @@
+{
+  "generated_at": "2026-11-07T00:50:56",
+  "today": "2026-11-07",
+  "program_start_date": "2026-08-17",
+  "program_started": true,
+  "session_today": {
+    "date": "2026-11-07",
+    "type": "z2",
+    "label": "Z2",
+    "distance_m": 5500.0,
+    "hr_zone": 2,
+    "status": "planned",
+    "summary": "Z2 5,5 km"
+  },
+  "week": {
+    "monday": "2026-11-02",
+    "label": "2 nov.",
+    "target_km": null,
+    "actual_km": 0,
+    "sessions": [
+      {
+        "date": "2026-11-06",
+        "type": "seuil",
+        "label": "Seuil",
+        "distance_m": 8500.0,
+        "hr_zone": 4,
+        "status": "missed",
+        "summary": "Seuil 8,5 km"
+      },
+      {
+        "date": "2026-11-07",
+        "type": "z2",
+        "label": "Z2",
+        "distance_m": 5500.0,
+        "hr_zone": 2,
+        "status": "planned",
+        "summary": "Z2 5,5 km"
+      },
+      {
+        "date": "2026-11-08",
+        "type": "longue",
+        "label": "Longue",
+        "distance_m": null,
+        "hr_zone": 2,
+        "status": "planned",
+        "summary": "Longue"
+      }
+    ]
+  },
+  "status": {
+    "load": {
+      "date": "2026-11-07",
+      "tsb": 10.120914768593016,
+      "tsb_label": "Frais",
+      "tsb_severity": "good",
+      "ctl": 14.633378917380197,
+      "atl": 4.512464148787181,
+      "ctl_trend": "en baisse",
+      "ctl_trend_lookback_days": 14
+    },
+    "ef": {
+      "trend": "en baisse",
+      "judged_points": 6,
+      "last_date": "2026-11-01"
+    }
+  },
+  "freshness": {
+    "last_success_at": "2026-11-06 23:50:56",
+    "sources_failing": []
+  },
+  "notifications": {
+    "morning": {
+      "title": "Aujourd'hui : Z2 5,5 km",
+      "body": "Charge : Frais · EF en baisse"
+    },
+    "weekly": {
+      "title": "Semaine du 2 nov.",
+      "body": "ven Seuil 8,5 km · sam Z2 5,5 km · dim Longue"
+    }
+  }
+}
