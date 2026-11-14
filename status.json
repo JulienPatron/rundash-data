@@ -1,0 +1,81 @@
+{
+  "generated_at": "2026-11-14T01:30:44",
+  "today": "2026-11-14",
+  "program_start_date": "2026-08-17",
+  "program_started": true,
+  "session_today": {
+    "date": "2026-11-14",
+    "type": "z2",
+    "label": "Z2",
+    "distance_m": 5500.0,
+    "hr_zone": 2,
+    "status": "planned",
+    "summary": "Z2 5,5 km"
+  },
+  "week": {
+    "monday": "2026-11-09",
+    "label": "9 nov.",
+    "target_km": null,
+    "actual_km": 0,
+    "sessions": [
+      {
+        "date": "2026-11-13",
+        "type": "fractionne",
+        "label": "Fractionné",
+        "distance_m": 8500.0,
+        "hr_zone": 5,
+        "status": "missed",
+        "summary": "Fractionné 8,5 km"
+      },
+      {
+        "date": "2026-11-14",
+        "type": "z2",
+        "label": "Z2",
+        "distance_m": 5500.0,
+        "hr_zone": 2,
+        "status": "planned",
+        "summary": "Z2 5,5 km"
+      },
+      {
+        "date": "2026-11-15",
+        "type": "longue",
+        "label": "Longue",
+        "distance_m": null,
+        "hr_zone": 2,
+        "status": "planned",
+        "summary": "Longue"
+      }
+    ]
+  },
+  "status": {
+    "load": {
+      "date": "2026-11-14",
+      "tsb": 9.882272268506167,
+      "tsb_label": "Frais",
+      "tsb_severity": "good",
+      "ctl": 10.484613521765295,
+      "atl": 0.6023412532591287,
+      "ctl_trend": "en baisse",
+      "ctl_trend_lookback_days": 14
+    },
+    "ef": {
+      "trend": "en baisse",
+      "judged_points": 6,
+      "last_date": "2026-11-01"
+    }
+  },
+  "freshness": {
+    "last_success_at": "2026-11-14 00:30:44",
+    "sources_failing": []
+  },
+  "notifications": {
+    "morning": {
+      "title": "Aujourd'hui : Z2 5,5 km",
+      "body": "Charge : Frais · EF en baisse"
+    },
+    "weekly": {
+      "title": "Semaine du 9 nov.",
+      "body": "ven Fractionné 8,5 km · sam Z2 5,5 km · dim Longue"
+    }
+  }
+}
