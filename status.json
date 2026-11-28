@@ -1,0 +1,81 @@
+{
+  "generated_at": "2026-11-28T18:08:17",
+  "today": "2026-11-28",
+  "program_start_date": "2026-08-17",
+  "program_started": true,
+  "session_today": {
+    "date": "2026-11-28",
+    "type": "z2",
+    "label": "Z2",
+    "distance_m": 5500.0,
+    "hr_zone": 2,
+    "status": "completed",
+    "summary": "Z2 5,5 km"
+  },
+  "week": {
+    "monday": "2026-11-23",
+    "label": "23 nov.",
+    "target_km": null,
+    "actual_km": 20.37588037109375,
+    "sessions": [
+      {
+        "date": "2026-11-27",
+        "type": "fractionne",
+        "label": "Fractionné",
+        "distance_m": 8500.0,
+        "hr_zone": 5,
+        "status": "completed",
+        "summary": "Fractionné 8,5 km"
+      },
+      {
+        "date": "2026-11-28",
+        "type": "z2",
+        "label": "Z2",
+        "distance_m": 5500.0,
+        "hr_zone": 2,
+        "status": "completed",
+        "summary": "Z2 5,5 km"
+      },
+      {
+        "date": "2026-11-29",
+        "type": "longue",
+        "label": "Longue",
+        "distance_m": null,
+        "hr_zone": 2,
+        "status": "planned",
+        "summary": "Longue"
+      }
+    ]
+  },
+  "status": {
+    "load": {
+      "date": "2026-11-28",
+      "tsb": -21.68389772857827,
+      "tsb_label": "En charge",
+      "tsb_severity": "warn",
+      "ctl": 16.81028064773317,
+      "atl": 38.49417837631144,
+      "ctl_trend": "en hausse",
+      "ctl_trend_lookback_days": 14
+    },
+    "ef": {
+      "trend": "en baisse",
+      "judged_points": 6,
+      "last_date": "2026-11-28"
+    }
+  },
+  "freshness": {
+    "last_success_at": "2026-11-28 17:08:16",
+    "sources_failing": []
+  },
+  "notifications": {
+    "morning": {
+      "title": "Aujourd'hui : Z2 5,5 km",
+      "body": "Charge : En charge · EF en baisse"
+    },
+    "weekly": {
+      "title": "Semaine du 23 nov.",
+      "body": "ven Fractionné 8,5 km · sam Z2 5,5 km · dim Longue"
+    }
+  }
+}
